@@ -3,6 +3,7 @@
 // TODO 5: Remove this line
 #include <iostream>
 #include <string>
+#include "TutorialConfig.h"
 
 // TODO 11: Include TutorialConfig.h
 
@@ -11,6 +12,7 @@ int main(int argc, char* argv[])
   if (argc < 2) {
     // TODO 12: Create a print statement using Tutorial_VERSION_MAJOR
     //          and Tutorial_VERSION_MINOR
+    std::cout << Tutorial_VERSION_MAJOR << " and " << Tutorial_VERSION_MINOR << std::endl;
     std::cout << "Usage: " << argv[0] << " number" << std::endl;
     return 1;
   }
